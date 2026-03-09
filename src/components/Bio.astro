@@ -1,0 +1,31 @@
+---
+import TextLink from "@components/TextLink.astro";
+import { resolvePath } from "@lib/utils";
+
+type Props = {
+  small?: boolean;
+};
+
+const { small } = Astro.props;
+---
+
+<div style={small ? "font-size: 0.875rem" : ""}>
+<p>Who we are? </p>
+Who are we?
+We are Domain Name Plus, your strategic partner in navigating the digital landscape. We believe a domain name is far more than an address—it's the cornerstone of your online identity.
+<p>. </p>
+<p><TextLink href="https://Domainname.plus">DomainName</TextLink> Plus.</p>
+<p>. </p>
+<p>What is a Domain Name? </p>
+A domain name is your website's unique name and address on the internet. But at its core, it represents three critical pillars of your digital success:
+Your Digital Brand Identity. It's the name customers remember, trust, and return to. A strong, concise domain name enhances brand recognition and user experience。
+Your Foundation of Credibility. A professional and relevant domain name instantly establishes trust with your audience and search engines, signaling stability and authority.
+Your Appreciating Digital Asset. A well-chosen domain name is not an expense; it's a strategic investment. Like prime real estate, it holds inherent value, drives targeted traffic, and can appreciate over time。
+<p>. </p>
+<p>Our Mission at Domain Name Plus</p>
+We go beyond simply registering names. Our mission is to empower you to choose a domain that is short, memorable, brand-aligned, and optimized for long-term growth. We combine industry expertise with a client-centric approach to help you secure a digital asset that strengthens your brand and stands the test of time.
+<p>. </p>
+<p>Let's build your digital foundation together.</p>
+
+<p>Domain Name Plus!</p>
+</div>
